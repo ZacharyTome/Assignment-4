@@ -21,3 +21,6 @@ class PalindromeTest(unittest.TestCase):
 
       def test_laval(self):
         self.assertTrue(is_palindrome("laval"))
+
+      def test_toronto(self):
+        self.assertFalse(is_palindrome("toronto"))
