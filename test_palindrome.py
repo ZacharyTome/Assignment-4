@@ -1,3 +1,2 @@
-"""
-Tests the palindrome module
-"""
+import unittest
+from palindrome import is_palindrome
