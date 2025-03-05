@@ -5,6 +5,7 @@ def is_palindrome(value: str) -> bool:
         return False
 
     if value == "":
+        print(False)
         return False
 
     value = ''.join(char.lower() for char in value if char.isalnum())
