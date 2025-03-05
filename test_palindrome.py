@@ -24,3 +24,6 @@ class PalindromeTest(unittest.TestCase):
 
       def test_toronto(self):
         self.assertFalse(is_palindrome("toronto"))
+
+if __name__ == '__main__':
+    unittest.main()
