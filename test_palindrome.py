@@ -9,3 +9,6 @@ class PalindromeTest(unittest.TestCase):
 
       def test_empty_string(self):
         self.assertFalse(is_palindrome(""))
+
+      def test_a(self):
+        self.assertTrue(is_palindrome("a"))
