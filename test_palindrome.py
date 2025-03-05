@@ -18,3 +18,6 @@ class PalindromeTest(unittest.TestCase):
 
       def test_abc(self):
         self.assertFalse(is_palindrome("abc"))
+
+      def test_laval(self):
+        self.assertTrue(is_palindrome("laval"))
